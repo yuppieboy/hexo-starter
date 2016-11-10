@@ -51,6 +51,13 @@ tag_map:
 # Comments
 disqus_shortname : yuppieboy
 
+# Search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
