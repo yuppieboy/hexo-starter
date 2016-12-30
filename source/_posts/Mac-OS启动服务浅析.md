@@ -11,7 +11,7 @@ tags: Mac OS
 `chrome`和`firefox`首页全部被篡改为名叫`snowbitt`的搜索引擎，开机后`safari`和`firefox`都被默认启动。
 
 ## 解决办法
-首页篡改还是比较容易，比如chrome中 `setting->重制设置`即可，不过它会关闭所有插件，重新打勾开启，然后把启动时网页改过来即可。firefox中直接删相应搜索引擎项无用，只能卸载掉并把·`／Library/Application Support/Firefox` 文件删掉，然后下载新的dmg文件重装即可。
+首页篡改还是比较容易，比如chrome中 `setting->重制设置`即可，不过它会关闭所有插件，重新打勾开启，然后把启动时网页改过来即可。firefox中直接删相应搜索引擎项无用，只能卸载掉并把`／Library/Application Support/Firefox` 文件删掉，然后下载新的dmg文件重装即可。
 
 比较麻烦的是开机启动项，系统偏好设置里明明没有启动项，可是开机时还是会启动，于是就深究了下去，发现和Mac OS启动服务有关系。
 
